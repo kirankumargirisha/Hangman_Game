@@ -25,7 +25,7 @@ body {
     display: flex;
     height: 61px;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background: rgba(245, 246, 246, 0.56);
     border-bottom: 1px solid #c4c8c7;
 }
@@ -33,9 +33,16 @@ body {
 .header-content-right{
     display: flex;
     align-items: center;
-    position: relative;
-    left: 450px;
+    margin-right: 10px;
 }
+
+.header-logo {
+    margin-left: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
 .header-content-right img{
     padding: 5px;
 }
