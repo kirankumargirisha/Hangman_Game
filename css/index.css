@@ -1,0 +1,59 @@
+/* Reset css/Apply code globally */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "Comfortaa", Areil, Helvitica, sans-serif;
+}
+
+
+/* header section */
+#header-container{
+    display: flex;
+    height: 61px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 246, 246, 0.56);
+    border-bottom: 1px solid #c4c8c7;
+}
+
+.header-content-right{
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 450px;
+}
+.header-content-right img{
+    padding: 5px;
+}
+
+.header-content-right .header-lifeavailable{
+    padding: 5px;
+    font-size: 20px;
+    color: #efa92e;
+}
+
+.header-content-right .fa{
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.56);
+    border-radius: 20px;
+    color: floralwhite;
+}
+
+/* Main */
+body{
+    background: url(../images/free-graphpaper-gridpaper.jpg);
+}
