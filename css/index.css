@@ -41,7 +41,7 @@ body {
     justify-content: center;
 }
 
-.header-logo:hover{
+.header-logo:hover {
     cursor: pointer;
 }
 
@@ -67,9 +67,12 @@ body {
 }
 
 /* ***************************Main Section****************************/
-
 body {
     background: url(../images/free-graphpaper-gridpaper.jpg);
+}
+
+.main-container {
+    height: 300px;
 }
 
 .main-title {
@@ -91,11 +94,11 @@ body {
 
 }
 
-.content-random-play:hover{
+.content-random-play:hover {
     cursor: pointer;
 }
 
-.content-random-play img{
+.content-random-play img {
     width: 30px;
     margin-left: 10px;
 }
@@ -112,7 +115,7 @@ body {
     border-top: 1px solid;
 }
 
-.content-time-play:hover{
+.content-time-play:hover {
     cursor: pointer;
 }
 
@@ -143,4 +146,26 @@ body {
 .play-rule-text {
     margin-left: 12px;
     font-size: 16px;
+}
+
+/****************************Footer Section****************************/
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin: 100px auto;
+}
+
+.footer-container li a {
+    text-decoration: underline;
+    color: blue;
+}
+
+.footer-container li a:hover {
+    cursor: pointer;
+}
+
+.footer-container li .footer-copyright {
+    text-decoration: none;
+    color: black;
 }
