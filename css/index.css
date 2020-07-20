@@ -71,8 +71,40 @@ body {
     background: url(../images/free-graphpaper-gridpaper.jpg);
 }
 
+
+.hint-timer {
+    display: none;
+    margin-top: 15px;
+}
+
+.hint {
+    cursor: pointer;
+    color: white;
+    background-color: #f39c12;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 225px;
+    width: 54px;
+    margin-top: 7px;
+}
+.hint-container {
+    display: none;
+    position: absolute;
+    margin-top: 20px;
+    min-height: 58px;
+}
+.hint-life {
+    height: 5px;
+    margin-left: 225px;
+    width: 54px;
+}
+
+.container {
+    height: 400px;
+}
+
 .main-container {
-    height: 300px;
+    height: 150px;
 }
 
 .main-title {
@@ -124,7 +156,7 @@ body {
     color: #808d8e;
 }
 
-.user-img {
+.profile-img {
     width: 30px;
     height: 30px;
 }
@@ -148,14 +180,64 @@ body {
     font-size: 16px;
 }
 
-/****************************Footer Section****************************/
-.footer-container {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin: 100px auto;
+.random-play-status {
+    margin-top: 150px;
 }
 
+.alert-random-play {
+    text-align: center;
+    font-size: 20px;
+    color: chocolate;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.showcase-aphabets {
+    text-align: center;
+    margin: 0px auto;
+
+}
+
+.showcase-aphabets span {
+    padding: 0px 5px;
+    background: #3498db;
+    color: white;
+    font-size: 33px;
+    border-radius: 15px;
+
+}
+
+.showcase-aphabets span:hover {
+    cursor: pointer;
+}
+
+.showcase-line {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    margin: 38px auto;
+    height: 22px !important;
+}
+
+.showcase-line-spanEle {
+    border-bottom: 2px solid orange;
+    width: 15px;
+}
+
+.section-container {
+    display: none;
+}
+
+.play-again-text {
+    margin-top: 40px;
+    text-align: center;
+    color: orange;
+}
+
+/****************************Footer Section****************************/
 .footer-container li a {
     text-decoration: underline;
     color: blue;
@@ -168,4 +250,24 @@ body {
 .footer-container li .footer-copyright {
     text-decoration: none;
     color: black;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+ul.footer-container li {
+    margin: 0 9px;
 }
