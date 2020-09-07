@@ -1,19 +1,3 @@
-// Ask pramod Sir,
-
-// Should we add empty place holder for dynamically created elements
-// I myself did not understand the code I have written
-//Should we declare all variables at top or closer to function for better undersatnding
-//writing functions 
-//should we draw a flowcart before starting
-//Should we write js immediately after designing header, main etc
-
-
-// Have to work on
-// No repeated letters with that we cannot enter the words
-// hint is not getting colored
-// No JSON call with promise
-// No testing
-
 const randOppo = document.querySelector(".content-random-play");
 const timed = document.querySelector(".player-timed");
 const unTimed = document.querySelector(".player-untimed");
@@ -169,17 +153,6 @@ function createLetterInput(word) {
 }
 let testarr = [];
 
-// function test(e){
-//     if(testarr.includes(e.target.textContent)){
-//         console.log(e.target.textContent,"testing1") 
-//         return;
-//     }else{
-//         console.log(e.target.textContent,"test func"); 
-//         testarr.push(e.target.textContent);
-//         letterExist(e);
-//     }
-    
-// }
 //Checks If the Letter Exists
 function letterExist(e) {
 
